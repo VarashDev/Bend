@@ -1,16 +1,387 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
+import MyH1 from "../components/MyH1.astro";
+import srcImage from "../assets/fishing-near-bend-oregon.webp";
+import { Image } from "astro:assets";
+import Link from "../components/Link.astro";
 ---
+<Layout 
+title="Fishing near Bend, Oregon"
+description="Discover the top places for fishing near Bend, Oregon, in this 2025 guide. Learn about rivers, lakes, gear tips, licenses, and more."
+url="https://bend.oregonfishingforum.com/"
+type="website"
+site_name="Oregon Fishing Forum"
+ogimage={srcImage.src}
+>
+    <center>
+			<MyH1 text="Fishing near Bend, Oregon" />
+			<p class="mb-4">Discover the top places for fishing near Bend, Oregon, in this 2025 guide. Learn about 
+				rivers, lakes, gear tips, licenses, and more.</p>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+			<Image
+				src={srcImage}
+				alt="Fishing near Bend, Oregon"
+				loading={"eager"}
+				fetchpriority={"high"}
+				/>
+				<br>
+			</center>
+
+<h2>
+    <strong>Introduction: Why Bend Is a World-Class Fishing Destination</strong>
+</h2>
+<p>
+    Located in the heart of Central Oregon, <strong>Bend</strong> is surrounded by a stunning variety of rivers, lakes, and reservoirs—making it one of the most diverse and scenic fishing regions in the Pacific Northwest. From the powerful flows of the Deschutes River to the serene alpine lakes of the Cascade Lakes Highway, anglers here can target <strong>rainbow, brown, brook trout, kokanee, and even largemouth bass</strong>—all within an hour’s drive.
+</p>
+<h2>
+    <strong>Fish Species You’ll Find Around Bend</strong>
+</h2>
+<p>
+    Bend’s cool waters are home to:
+</p>
+<ul>
+    <li>
+        <strong>Rainbow Trout</strong> – Native and stocked in most rivers and lakes.
+    </li>
+    <li>
+        <strong>Brown Trout</strong> – Common in Wickiup, Crooked, and East Lake.
+    </li>
+    <li>
+        <strong>Brook Trout</strong> – High-elevation streams and lakes.
+    </li>
+    <li>
+        <strong>Kokanee Salmon</strong> – Schooling fish in reservoirs.
+    </li>
+    <li>
+        <strong>Largemouth Bass</strong> – In Crane Prairie and some warmer lakes.
+    </li>
+    <li>
+        <strong>Mountain Whitefish</strong> – Often caught in tailwaters like the Crooked.
+    </li>
+</ul>
+<h2>
+    <strong>High Desert Fishing Seasons Around Bend</strong>
+</h2>
+<figure class="table">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <strong>Season</strong>
+                </th>
+                <th>
+                    <strong>Target Species</strong>
+                </th>
+                <th>
+                    <strong>Conditions</strong>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <strong>Spring (Apr–June)</strong>
+                </td>
+                <td>
+                    Trout, kokanee
+                </td>
+                <td>
+                    Lakes open, insect hatches begin
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Summer (July–Aug)</strong>
+                </td>
+                <td>
+                    Trout, bass, whitefish
+                </td>
+                <td>
+                    Early morning best due to heat
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Fall (Sept–Nov)</strong>
+                </td>
+                <td>
+                    Browns, kokanee, trophy trout
+                </td>
+                <td>
+                    Cooler temps and big fish feeding
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>Winter (Dec–Mar)</strong>
+                </td>
+                <td>
+                    Ice fishing, tailwater trout
+                </td>
+                <td>
+                    Crooked River remains productive
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</figure>
+<p>
+    &nbsp;
+</p>
+<h2>
+    <strong>Best Rivers for Fishing Near Bend, Oregon</strong>
+</h2>
+<h3>
+    <strong>Deschutes River (Upper &amp; Lower)</strong>
+</h3>
+<p>
+    The <strong>Upper Deschutes</strong> offers gentle water and easy wading for beginners. The <strong>Lower Deschutes</strong>, accessed via Maupin, is legendary for <strong>wild redband trout</strong>, summer steelhead, and incredible hatches.
+</p>
+<h3>
+    <strong>Fall River</strong>
+</h3>
+<p>
+    A <strong>spring-fed creek</strong> perfect for dry fly and Euro nymphing. It’s fly-only, with catch-and-release rules. Fish are spooky but rewarding.
+</p>
+<h3>
+    <strong>Crooked River</strong>
+</h3>
+<p>
+    Located below the Bowman Dam, this tailwater fishery stays fishable year-round. Great for numbers of rainbow trout and whitefish—best accessed near Prineville.
+</p>
+<h3>
+    <strong>Metolius River</strong>
+</h3>
+<p>
+    A technical but gorgeous stream full of wild rainbow trout and the occasional bull trout. Best for experienced fly anglers.
+</p>
+<h2>
+    <strong>Best Lakes for Fishing Near Bend</strong>
+</h2>
+<h3>
+    <strong>Crane Prairie Reservoir</strong>
+</h3>
+<p>
+    Trophy <strong>rainbow trout (“cranebows”)</strong>, largemouth bass, and black crappie abound. Shallow, weedy areas are hotspots—fish early or late.
+</p>
+<h3>
+    <strong>Wickiup Reservoir</strong>
+</h3>
+<p>
+    Home to large <strong>brown trout</strong>, <strong>kokanee</strong>, and occasional trophy rainbows. Fish deeper waters and troll spoons or dodgers with corn for kokanee.
+</p>
+<h3>
+    <strong>East Lake &amp; Paulina Lake</strong>
+</h3>
+<p>
+    Located in the Newberry Crater, these lakes are stocked with rainbows and kokanee, plus hold wild browns. Dry flies, trolling, and jigging all work well.
+</p>
+<h3>
+    <strong>Hosmer Lake</strong>
+</h3>
+<p>
+    Fly-fishing only and catch-and-release. Clear water, stunning views, and hungry brookies and rainbows make this an alpine favorite.
+</p>
+<h2>
+    <strong>Bank, Wading, or Boat: Choosing the Right Method</strong>
+</h2>
+<figure class="table">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <strong>Water Type</strong>
+                </th>
+                <th>
+                    <strong>Best Method</strong>
+                </th>
+                <th>
+                    <strong>Notes</strong>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Rivers (Crooked, Deschutes)
+                </td>
+                <td>
+                    Wading
+                </td>
+                <td>
+                    Wear felt soles or cleats
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Larger Lakes (Wickiup, Crane Prairie)
+                </td>
+                <td>
+                    Boat/Kayak
+                </td>
+                <td>
+                    Trolling and spot fishing
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Small Streams (Fall River, Hosmer)
+                </td>
+                <td>
+                    Wading or float tube
+                </td>
+                <td>
+                    Stealth is key
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</figure>
+<p>
+    &nbsp;
+</p>
+<h2>
+    <strong>Fly Fishing Near Bend</strong>
+</h2>
+<p>
+    Fly anglers flock to Bend for:
+</p>
+<ul>
+    <li>
+        <strong>Dry fly hatches</strong> on Fall, Metolius, and Upper Deschutes.
+    </li>
+    <li>
+        <strong>Euro nymphing</strong> on Crooked and Lower Deschutes.
+    </li>
+    <li>
+        <strong>Top flies</strong>: Elk Hair Caddis, BWO, Zebra Midge, Prince Nymph, Chubby Chernobyl.
+    </li>
+</ul>
+<p>
+    Bring a 4–6 wt rod, floating line, and long leaders for spooky trout.
+</p>
+<h2>
+    <strong>Spin and Bait Fishing in Bend’s Waters</strong>
+</h2>
+<ul>
+    <li>
+        <strong>Allowed in most lakes</strong> and some river sections (check regs).
+    </li>
+    <li>
+        <strong>Effective lures</strong>: Rooster Tails, Kastmasters, Thomas Buoyant.
+    </li>
+    <li>
+        <strong>Bait</strong>: PowerBait, worms, corn (for kokanee), salmon eggs.
+    </li>
+    <li>
+        Trolling is popular on East, Wickiup, and Crane Prairie.
+    </li>
+</ul>
+<h2>
+    <strong>Ice Fishing Near Bend (Winter Opportunities)</strong>
+</h2>
+<p>
+    When the snow falls, head to:
+</p>
+<ul>
+    <li>
+        <strong>East Lake</strong>: Ice fishing for rainbows and kokanee.
+    </li>
+    <li>
+        <strong>Wickiup</strong>: Deeper water makes for good mid-winter ice fishing.
+    </li>
+</ul>
+<p>
+    Bring safety gear, augers, and check conditions with ODFW before going.
+</p>
+<h2>
+    <strong>Fishing with Kids and Families Around Bend</strong>
+</h2>
+<p>
+    Great options include:
+</p>
+<ul>
+    <li>
+        <strong>Shevlin Park Pond</strong>: Stocked for youth and easy to access.
+    </li>
+    <li>
+        <strong>Big Lava Lake</strong>: Calm water and great scenery.
+    </li>
+    <li>
+        <strong>Elk Lake</strong>: Offers trout and safe bank spots for beginners.
+    </li>
+</ul>
+<p>
+    Bring bobbers, worms, and snacks—it’s about fun more than trophies!
+</p>
+<h2>
+    <strong>Local Tackle Shops and Gear Rental in Bend</strong>
+</h2>
+<ul>
+    <li>
+        <strong>Fly &amp; Field Outfitters</strong> – Fly shop and guide services.
+    </li>
+    <li>
+        <strong>Sportsman’s Warehouse – Bend</strong> – Spin gear, rods, and licenses.
+    </li>
+    <li>
+        <strong>Confluence Fly Shop</strong> – Great advice for technical waters like the Metolius.
+    </li>
+    <li>
+        <strong>ODFW Bend Office</strong> – Regulation updates and stocking info.
+    </li>
+</ul>
+<h2>
+    <strong>Oregon Fishing License and Rules for Central Oregon</strong>
+</h2>
+<ul>
+    <li>
+        <strong>Angling license</strong> required for anyone 12+.
+    </li>
+    <li>
+        <strong>Two-Rod Validation</strong> available for lake fishing.
+    </li>
+    <li>
+        <strong>Hatchery trout may be kept</strong>, wild trout often catch-and-release only.
+    </li>
+    <li>
+        <strong>Fly-only waters</strong> include Fall River and Hosmer Lake.
+    </li>
+</ul>
+<p>
+    Check myodfw.com before heading out.
+</p>
+<h2>
+    <strong>Frequently Asked Questions About Fishing Near Bend, Oregon</strong>
+</h2>
+<p>
+    <strong>Q1: What’s the best river near Bend for beginners?</strong><br>
+    The <strong>Upper Deschutes</strong> and <strong>Crooked River</strong> offer easy access, gentle flows, and lots of fish.
+</p>
+<p>
+    <strong>Q2: Are there kokanee near Bend?</strong><br>
+    Yes! Wickiup and Paulina Lake are both kokanee hotbeds in spring and fall.
+</p>
+<p>
+    <strong>Q3: Can I rent fishing gear in Bend?</strong><br>
+    Yes—shops like Fly &amp; Field Outfitters and Sportsman’s Warehouse offer rentals and starter kits.
+</p>
+<p>
+    <strong>Q4: When is the best time to fish around Bend?</strong><br>
+    <strong>Spring and fall</strong> are ideal—cooler temps, active fish, and fewer crowds.
+</p>
+<p>
+    <strong>Q5: Are there fishing spots good for kids near Bend?</strong><br>
+    Yes—<strong>Shevlin Pond</strong>, <strong>Elk Lake</strong>, and <strong>Big Lava Lake</strong> are excellent family-friendly choices.
+</p>
+<p>
+    <strong>Q6: Is ice fishing allowed around Bend?</strong><br>
+    Yes—East Lake and Wickiup are two popular ice fishing destinations in winter.
+</p>
+<h2>
+    <strong>Conclusion: Explore Bend’s Fishing Paradise Year-Round</strong>
+</h2>
+<p>
+    From roaring rivers to alpine lakes, <strong>fishing near Bend, Oregon</strong> is a year-round adventure. Whether you're chasing redband trout on the Deschutes or trolling for kokanee on East Lake, every cast brings a chance at something special. Pack your rods, grab your license, and explore one of the most scenic and rewarding fishing destinations in the West.
+</p>
+</Layout>
